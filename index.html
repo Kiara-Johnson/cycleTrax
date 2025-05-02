@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>CycleTrax</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>CycleTrax</h1>
+    <h2>Menstrual Cycle Tracker</h2>
+    <form>
+        <fieldset>
+            <legend>Enter your Cycle start and end date</legend>
+            <p>
+                <label for="start-date">Start date</label>
+                <input type="date" id="start-date" required />
+            </p>
+            <p>
+                <label for="end-date">End date</label>
+                <input type="date" id="end-date" required />
+            </p>
+        </fieldset>
+        <p>
+            <button type="submit">Add Cycle</button>
+        </p>
+    </form>
+    <section id="past-periods">
+        <h2>Past Cycles</h2>
+        <ul>
+            <li>From 01/01/2024 to 01/07/2024</li>
+            <li>From 02/02/2024 to 02/08/2024</li>
+        </ul>
+    </section>
+    <script src="app.js" defer></script>
+  </body>
+</html>
