@@ -4,33 +4,39 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>CycleTrax</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>CycleTrax</h1>
     <h2>Menstrual Cycle Tracker</h2>
     <form>
-        <fieldset>
-            <legend>Enter your Cycle start and end date</legend>
-            <p>
-                <label for="start-date">Start date</label>
-                <input type="date" id="start-date" required />
-            </p>
-            <p>
-                <label for="end-date">End date</label>
-                <input type="date" id="end-date" required />
-            </p>
-        </fieldset>
+      <fieldset>
+        <legend>Enter your Cycle start and end date</legend>
         <p>
-            <button type="submit">Add Cycle</button>
+          <label for="start-date">Start date</label>
+          <input type="date" id="start-date" required />
         </p>
+        <p>
+          <label for="end-date">End date</label>
+          <input type="date" id="end-date" required />
+        </p>
+      </fieldset>
+      <p>
+        <button type="submit">Add Cycle</button>
+      </p>
     </form>
     <section id="past-periods">
-        <h2>Past Cycles</h2>
-        <ul>
-            <li>From 01/01/2024 to 01/07/2024</li>
-            <li>From 02/02/2024 to 02/08/2024</li>
-        </ul>
+      <h2>Past Cycles</h2>
+      <ul>
+        <li>From 01/01/2024 to 01/07/2024</li>
+        <li>From 02/02/2024 to 02/08/2024</li>
+      </ul>
     </section>
     <script src="app.js" defer></script>
   </body>

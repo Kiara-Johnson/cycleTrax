@@ -1,0 +1,25 @@
+body {
+    margin:1vh 1vw;
+    background-color: rgb(219, 236, 247);
+    font-family: "Playfair Display", serif;
+}
+ul,
+fieldset,
+legend {
+    border: 1px solid;
+    background-color: #8d49bb1a;
+}
+li,
+legend {
+    background-color: rgba(254, 255, 204, 0.589);
+}
+li:nth-of-type(even) {
+    background-color: inherit;
+}
+ul {
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+li {
+    list-style-type: none;
+}
