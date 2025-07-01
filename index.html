@@ -17,7 +17,7 @@
     <h2>Menstrual Cycle Tracker</h2>
     <form>
       <fieldset>
-        <legend>Enter your Cycle start and end date</legend>
+        <legend>Enter your menstrual cycle start and end date</legend>
         <p>
           <label for="start-date">Start date</label>
           <input type="date" id="start-date" required />
@@ -27,17 +27,18 @@
           <input type="date" id="end-date" required />
         </p>
       </fieldset>
+          <!-- possibly add a flow tracking fieldset to the form-->
       <p>
         <button type="submit">Add Cycle</button>
       </p>
     </form>
-    <section id="past-periods">
-      <!-- <h2>Past Cycles</h2>
-      <ul>
+    <section id="past-cycles">
+      <h2>Past Cycles</h2>
+      <!-- <ul>
         <li>From 01/01/2024 to 01/07/2024</li>
         <li>From 02/02/2024 to 02/08/2024</li>
       </ul> -->
     </section>
-    <script src="app.js" defer></script>
+    <script src="./app.js" defer></script>
   </body>
 </html>

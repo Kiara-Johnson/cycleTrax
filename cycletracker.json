@@ -1,0 +1,9 @@
+{
+    "name": "CycleTrax: Menstrual Cycle Tracker",
+    "short_name": "CT",
+    "description": "Securely and confidentially track your menstrual cycle. Enter the start and end dates of your cycles, saving your private data to your browser on your device, without sharing it with the rest of the world.",
+    "start_url": "/",
+    "theme_color": "rgb(219, 236, 247)", 
+    "background_color": "rgb(219, 236, 247)", 
+    "display": "standalone"
+}

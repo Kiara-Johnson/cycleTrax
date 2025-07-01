@@ -1,1 +1,1 @@
-This is my practice project to learn how to make a progressive web app(pwa)
+This is my practice project to learn how to make a progressive web app (pwa)

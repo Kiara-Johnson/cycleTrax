@@ -61,7 +61,7 @@ function renderPastCycles() {
   //get the parsed cycles or the empty array
   const cycles = getAllStoredCycles();
   //exit if there are no cycles
-  if (periods.length === 0) {
+  if (cycles.length === 0) {
     return;
   }
   //clear the list of past cycles to re-render it
@@ -74,17 +74,19 @@ function renderPastCycles() {
   //create individual list items (li)
   cycles.forEach((cycle) => {
     const cycleEl = document.createElement("li");
-    cycleEl.textContent =
-      "From ${formatDate(cycle.startDate,)} to ${formatDate(cycle.endDate)}";
+    cycleEl.textContent = `From ${formatDate(cycle.startDate)} to ${formatDate(
+      cycle.endDate
+    )}`;
     pastCycleList.appendChild(cycleEl);
   });
   pastCycleContainer.appendChild(pastCycleHeader);
   pastCycleContainer.appendChild(pastCycleList);
 }
+
 function formatDate(dateString) {
   //convert date string into date object
   const date = new Date(dateString);
   //format the date to local time
-  return date.toLocaleDateString("en-us", { timeZone: "MDT" });
+  return date.toLocaleDateString("en-us", { timeZone: "UTC" });
 }
 renderPastCycles();
