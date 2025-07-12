@@ -5,5 +5,31 @@
     "start_url": "/",
     "theme_color": "rgb(219, 236, 247)", 
     "background_color": "rgb(219, 236, 247)", 
-    "display": "standalone"
+    "display": "standalone",
+    "icons": [
+        {
+      "src": "icons/circleicon-512-512.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "icons/circleicon-192-192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icons/circleicon-144-144.png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "icons/circleicon-96-96.png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "icons/circleicon-72-72.png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "icons/circleicon-48-48.png",
+      "sizes": "48x48"
+    }
+    ]
 }
